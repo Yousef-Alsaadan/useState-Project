@@ -1,0 +1,49 @@
+.talk_bubble {
+    display: inline-block;
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    color: white;
+    border-radius: 1rem;
+}
+
+.green_bubble:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -20px;
+    left: auto;
+    bottom: 0;
+    top: auto;
+    transform: rotate(180Deg);
+    border: 22px solid;
+    border-color: #134D37 transparent transparent transparent;
+}
+
+.gray_bubble:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    right: auto;
+    bottom: 0;
+    top: auto;
+    transform: rotate(180Deg);
+    border: 22px solid;
+    border-color: #222627 transparent transparent transparent;
+}
+
+
+.talk_text {
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+    
+}
+
+.talk_text p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
